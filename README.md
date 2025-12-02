@@ -35,6 +35,13 @@ All projects are written in **Java** and follow clean, modular, and test-driven 
   - Streams and functional-style queries
   - Grouping and aggregating domain data
 
+- **lab5-social**  
+  A **social network** application supporting user subscriptions, friendships, groups, and posts. Focus on:
+  - Hibernate ORM and JPA for persistence
+  - Repository pattern for data access
+  - Managing bidirectional relationships (friendships)
+  - Complex queries and statistics
+
 ## Technologies & tools
 
 - Language: **Java**
