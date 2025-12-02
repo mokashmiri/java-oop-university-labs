@@ -1,0 +1,75 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Compile Lab 0",
+            "type": "shell",
+            "command": "mvn compile",
+            "options": {
+                "cwd": "${workspaceFolder}/lab0-simple-calculator"
+            },
+            "group": "build",
+            "problemMatcher": []
+        },
+        {
+            "label": "Compile Lab 1",
+            "type": "shell",
+            "command": "mvn compile",
+            "options": {
+                "cwd": "${workspaceFolder}/lab1-university"
+            },
+            "group": "build",
+            "problemMatcher": []
+        },
+        {
+            "label": "Compile Lab 2",
+            "type": "shell",
+            "command": "mvn compile",
+            "options": {
+                "cwd": "${workspaceFolder}/lab2-hydraulics"
+            },
+            "group": "build",
+            "problemMatcher": []
+        },
+        {
+            "label": "Test Lab 0",
+            "type": "shell",
+            "command": "mvn test",
+            "options": {
+                "cwd": "${workspaceFolder}/lab0-simple-calculator"
+            },
+            "group": "test",
+            "problemMatcher": []
+        },
+        {
+            "label": "Test Lab 1",
+            "type": "shell",
+            "command": "mvn test",
+            "options": {
+                "cwd": "${workspaceFolder}/lab1-university"
+            },
+            "group": "test",
+            "problemMatcher": []
+        },
+        {
+            "label": "Test Lab 2",
+            "type": "shell",
+            "command": "mvn test",
+            "options": {
+                "cwd": "${workspaceFolder}/lab2-hydraulics"
+            },
+            "group": "test",
+            "problemMatcher": []
+        },
+        {
+            "label": "Run Maven Tests Lab 2",
+            "type": "shell",
+            "command": "mvn test",
+            "options": {
+                "cwd": "${workspaceFolder}/lab2-hydraulics"
+            },
+            "problemMatcher": []
+        }
+    ]
+}
+

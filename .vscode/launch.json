@@ -1,0 +1,55 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ExampleApp",
+            "request": "launch",
+            "mainClass": "ExampleApp",
+            "projectName": "University"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "hydraulic.Main",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Run Calculator (Lab 0)",
+            "request": "launch",
+            "mainClass": "calc.Calculator",
+            "projectName": "lab0-simple-calculator",
+            "cwd": "${workspaceFolder}/lab0-simple-calculator"
+        },
+        {
+            "type": "java",
+            "name": "Run ExampleApp (Lab 1)",
+            "request": "launch",
+            "mainClass": "ExampleApp",
+            "projectName": "lab1-university",
+            "cwd": "${workspaceFolder}/lab1-university"
+        },
+        {
+            "type": "java",
+            "name": "Run Main (Lab 2 - Hydraulics)",
+            "request": "launch",
+            "mainClass": "hydraulic.Main",
+            "projectName": "lab2-hydraulics",
+            "cwd": "${workspaceFolder}/lab2-hydraulics",
+            "classPaths": [
+                "${workspaceFolder}/lab2-hydraulics/target/classes"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "Run All Lab 2 Tests",
+            "request": "launch",
+            "mainClass": "",
+            "projectName": "lab2-hydraulics",
+            "cwd": "${workspaceFolder}/lab2-hydraulics",
+            "preLaunchTask": "Run Maven Tests Lab 2"
+        }
+    ]
+}

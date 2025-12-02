@@ -1,0 +1,12 @@
+{
+    "maven.executable.path": "/opt/homebrew/bin/mvn",
+    "java.jdt.ls.java.home": "/opt/homebrew/Cellar/openjdk/25.0.1/libexec/openjdk.jdk/Contents/Home",
+    "java.import.maven.enabled": true,
+    "java.compile.nullAnalysis.mode": "disabled",
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "java.autobuild.enabled": true,
+    "java.project.outputPath": "target/classes",
+    "files.exclude": {
+        "**/*.class": true
+    }
+}
